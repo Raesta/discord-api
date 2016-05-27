@@ -7,8 +7,10 @@ var Voice = require('./libs/voice');
 
 module.exports = Discord;
 
-function Discord() {
-
+function Discord(token, callback) {
+	this.token = token;
+	this.guilds = [];
+	this.core.connection(this, callback);
 }
 
 Discord.prototype.core = new Core();

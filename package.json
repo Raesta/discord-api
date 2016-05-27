@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Raesta/discord-api#readme",
   "dependencies": {
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "ws": "^1.1.0"
   }
 }
